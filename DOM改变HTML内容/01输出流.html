@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript 能够创建动态的 HTML 内容</title>
+    <!-- 在 JavaScript 中，document.write() 可用于直接向 HTML 输出流写内容。 -->
+</head>
+<!-- 绝对不要在文档加载完成之后使用 document.write()。这会覆盖该文档。 -->
+
+<body>
+    <script>
+        document.write(Date); //function Date() { [native code] }
+        document.write(Date()); //Thu Aug 23 2018 17:40:22 GMT+0800 (中国标准时间)
+    </script>
+</body>
+
+</html>

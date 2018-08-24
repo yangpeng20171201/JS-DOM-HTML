@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>事件属性，添加点击事件</title>
+</head>
+
+<body>
+    <p>点击按钮执行 <em>displayDate()</em> 函数.</p>
+    <button onclick="displayDate()">点这里</button>
+    <script>
+        function displayDate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+    </script>
+    <p id="demo"></p>
+</body>
+
+</html>

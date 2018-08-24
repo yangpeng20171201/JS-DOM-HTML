@@ -1,0 +1,7 @@
+DOM 
+通过HTML-DOM,可访问JavaScript HTML文档中的所有元素。
+HTML DOM(文档对象模型)
+当网页被加载时，浏览器会创建页面的文档对象模型(Document Object Model)。
+HTML DOM定义了用于HTML的一系列标准的对象，以及访问和处理HTML文档的标准方法。通过DOM，你可以访问所有的HTML元素，连同它们所包含的文本和属性。
+HTML DOM独立于平台和编程语言。它可以被任何编程语言诸如Java、JavaScript和VBScript使用。
+HTML DOM模型被构造为对象的树。

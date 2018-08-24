@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>删除已有的段落</title>
+</head>
+
+<body>
+    <!-- 
+  如果能够在不引用父元素的情况下删除某个元素，就太好了。
+不过很遗憾。DOM 需要清楚您需要删除的元素，以及它的父元素。
+ -->
+    <div id="div1">
+        <p id="p1">这是一个段落。</p>
+        <p id="p2">这是另一个段落。</p>
+    </div>
+    <script>
+        var parent = document.getElementById("div1");
+        var child = document.getElementById("p1");
+        // child.parentNode.removeChild(child);  找到child属性的父元素
+        parent.removeChild(child);
+    </script>
+
+</body>
+
+</html>

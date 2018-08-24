@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>添加window对象添加事件</title>
+</head>
+
+<body>
+
+    <p>实例在window对象中使用 addEventListener() 方法。</p>
+    <p>尝试重置浏览器的窗口触发 "resize" 事件句柄。</p>
+    <p id="demo"></p>
+    <script>
+        window.addEventListener("resize", function() {
+            //添加了一个随机数，当浏览器的窗口改变的时候
+            document.getElementById("demo").innerHTML = Math.random();
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>通过查找类名来查找元素</title>
+</head>
+
+<body>
+    <p class="intro">你好世界!</p>
+    <p>该实例展示了 <b>getElementsByClassName</b> 方法!</p>
+    <script>
+        x = document.getElementsByClassName("intro");
+        document.write("<p>文本来自 class 为 intro 段落: " + x[0].innerHTML + "</p>");
+    </script>
+    <p><b>注意：</b>Internet Explorer 8 及更早 IE 版本不支持 getElementsByClassName() 方法。</p>
+</body>
+</body>
+
+</html>

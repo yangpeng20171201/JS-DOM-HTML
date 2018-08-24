@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>通过id查找HTML元素</title>
+</head>
+<!-- 在 DOM 中查找 HTML 元素的最简单的方法，是通过使用元素的 id。 -->
+
+<body>
+    <p id="intro">你好世界！</p>
+    <p>该实例展示了 <b>getElementById</b> 方法!</p>
+    <script>
+        x = document.getElementById("intro");
+        //添加了一个p元素，添加id为p元素的内容
+        // 如果找到该元素，则该方法将以对象（在 x 中）的形式返回该元素。
+        // 如果未找到该元素，则 x 将包含 null。
+        document.write("<p>文本来自 id 为 intro 段落: " + x.innerHTML + "</p>");
+    </script>
+</body>
+
+</html>
